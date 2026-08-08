@@ -1,0 +1,20 @@
+DATA TYPES in sql are -> boolean, numbers, binary, Date/time, json, character, UUID, Array, XML 
+
+1. NUMBERS--> Integer
+    a. SMALLINT(int2)-2 bytes
+    b. INTEGER(int4)-4 bytes
+    c.BIGINT(int8)-8 bytes
+    d.REAL(float4)-4 bytes
+    e.DOUBLE PERCISION(float8)-8 bytes
+    f.NUMERIC/DECIMAL-variable
+    g.SERIAL-4 bytes
+2. CHARACTER -->
+    a. CHAR(n)- n bytes
+    b.VARCHAR(n)- variable
+    c.TEXT - variable
+3. DATE-->
+    a. DATE- 1980-2-20
+    b. TIME -14:20:00
+    c. TIMETZ- 14:30:00+06
+    d. TIMESTAMP - 2025-28-29 14:30:00
+    e. INTERVAL - 3 days 4 hours
