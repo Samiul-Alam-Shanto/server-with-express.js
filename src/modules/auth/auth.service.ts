@@ -57,7 +57,6 @@ const generateRefreshToken = async (token: string) => {
 
   const userData = await pool.query(
     `
-        
         SELECT * FROM users WHERE email=$1`,
     [decodedToken.email],
   );
